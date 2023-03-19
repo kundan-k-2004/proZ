@@ -1,0 +1,218 @@
+body{
+
+    background-color: rgb(0, 0, 0);
+font-size: 50px;
+/* color: aliceblue; */
+position: relative;
+margin:0px;
+font-family: 'Rubik Iso', cursive;
+}
+.div1{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+    /* position:absolute; */
+
+}
+a{
+  text-decoration: none;
+}
+.rules{
+    font-size: smaller;
+}
+/* span{
+    position:absolute;
+} */
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+ }
+ .title{
+    /* transform: translateZ(-30px) scale(4); */
+    transform: translateZ(-10px) scale(2);
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    font-family: 'Tilt Prism', cursive;
+    font-size: 100px;
+/* transform:translateX(10px) scale(1); */
+    /* text-shadow: 2px 2px ; */
+    color:rgb(255, 255, 255);
+    display: inline;
+
+ }
+ .title::after{
+
+  content :"\a";
+ } 
+/* .background{
+transform: translateZ(-30px) scale(4);
+width: 100%;
+position:absolute;
+height: 100%;
+object-fit:cover;
+/* z-index: -1;} */
+
+.foreground{    
+    transform: translateZ(-30px) scale(4);
+    position:absolute;
+    object-fit:cover;
+    /* z-index: 2; */
+    height:100vh;
+    /* opacity: 0.9; */
+}
+
+
+.canva{
+    z-index:-1;
+    position: absolute;
+}
+nav{
+    display: flex;
+    position :absolute;
+    justify-content: end;
+}
+.items{
+  position: relative;
+  width: 95vw;
+    list-style: none;
+    display:flex;
+}
+h1{
+    font-size: 50px;
+    display: flex;
+    
+}
+ul li{
+padding-left: 20px;
+padding: 20px 20px 20px 0px;
+margin: 0px;
+padding-top: 0px;
+display:flex
+
+}
+.div2{
+    height:100vh;
+    width:100%;
+    background-image: url("avengers.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    opacity: 0.6;
+    font-weight: bolder;
+    color: antiquewhite;
+    /* margin-left: 3px; */
+}
+/* .div3{
+    height:30vh;
+align-items: center;
+} */
+.div4{
+    height:100px;
+    width:100%;
+  
+    color: #fff;
+    display: flex;
+/* flex-wrap: wrap-reverse; */
+    margin-top: 100px;
+    align-items: end;
+    /* position: ; */
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+
+}
+.items li{
+  margin-right :50px;
+}
+.motif{
+
+  height:90px;
+  width:90px;
+  position: absolute;
+  right: 0;
+  /* margin-right:0px; */
+  /* display: flex; */
+  
+}
+
+button{
+    
+    align-items: center;
+
+margin-left: 40%;
+justify-content: center;
+/* position: absolute; */
+display: block;
+/* transform: translateY(-10%); */
+/* transform: translateX(5%); */
+
+}
+.button-49 {
+  width: 250px;
+  height: 76px;
+  font-size: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #fff;
+  background-color: red;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #429297;
+  /* position: relative; */
+
+}
+
+
+.button-49:hover {
+  animation: 2s glitch;
+color: red;
+background-color: rgb(32, 30, 30);
+}
+
+@keyframes glitch {
+  0% {
+    transform: translate(-20px, -10px);
+  }
+  10% {
+    transform: translate(10px, 10px);
+  }
+  20% {
+    transform: translate(-10px, 10px);
+  }
+  30% {
+    transform: translate(0px, 5px);
+  }
+  40% {
+    transform: translate(-5px, 0px);
+  }
+  50% {
+    transform: translate(5px, 0px);
+  }
+  60% {
+    transform: translate(5px, 10px);
+  }
+  70% {
+    transform: translate(-10px, 10px);
+  }
+  80% {
+    transform: translate(20px, -10px);
+  }
+  90% {
+    transform: translate(-10px, 0px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+/* @media (min-width: 768px) {
+  .button-49,
+  .button-49:after {
+    width: 200px;
+    height: 86px;
+    line-height: 88px;
+  }
+} */

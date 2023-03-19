@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+    font-size: 30px;
+    color: aliceblue;
+    background-image: radial-gradient(grey,black)
+}
+
+
+img{
+    height:100px;
+    width:100px;
+}
+
+.heading{
+    /* text-align:center; */
+    margin-left: 40%;
+
+}

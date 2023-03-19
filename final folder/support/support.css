@@ -1,0 +1,37 @@
+body{
+    position: relative;
+    background-color: black;
+    overflow-x: hidden;
+
+}
+div{
+    font-family: 'Playfair Display', serif;
+    color:aliceblue;
+    text-shadow:0px 0px 5px red;
+    overflow: hidden;
+font-size: 40px;
+text-align: center;
+
+}
+#back{
+
+overflow: hidden;
+z-index: -1;
+position: fixed;
+opacity: 0.5;
+/* width: 100vh;
+height: 100%; */
+}
+h{
+    font-weight: bolder;
+    color: rgb(209, 183, 233);
+    text-shadow: 0px 0px 5px blueviolet,
+    0px 0px 6px blueviolet,
+     0px 0px 7px blueviolet, 
+    0px 0px 8px blueviolet,
+     0px 0px 9px blueviolet,
+     0px 0px 10px blueviolet;
+   position: relative;
+   margin-top: 50%;
+   
+}
